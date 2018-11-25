@@ -1,0 +1,35 @@
+Core OOPS concepts are:
+1. Abstraction
+2. Encapsulation
+3. Polymorphism
+4. Inheritance
+5. Association
+6. Aggregation
+7. Composition
+
+Let's look into these object oriented programming concepts one by one. We will use java programming language for code examples, so that you know how to implement OOPS concepts in java.
+
+Abstraction:
+Abstraction is the concept of hiding the internal details and describing things in simple terms. For example, a method that adds two integers. The method internal processing is hidden from outer world. There are many ways to achieve abstraction in object oriented programming, such as encapsulation and inheritance.
+
+A java program is also a great example of abstraction. Here java takes care of converting simple statements to machine language and hides the inner implementation details from outer world.
+
+Encapsulation:
+Encapsulation is the technique used to implement abstraction in object oriented programming. Encapsulation is used for access restriction to a class members and methods.
+
+Access modifier keywords are used for encapsulation in object oriented programming. For example, encapsulation in java is achieved using private, protected and public keywords.
+
+Polymorphism:
+Polymorphism refers to the ability of a variable, object or function to take on multiple forms. For example, in English, the verb "run" has a different meaning if you use it with "a laptop," "a foot race, and "business.&rdquo Here, we understand the meaning of "run" based on the other words used along with it.The same also applied to Polymorphism.
+ 
+Inheritance:
+Inheritance is an OOPS concept in which one object acquires the properties and behaviors of the parent object. It's creating a parent-child relationship between two classes. It offers robust and natural mechanism for organizing and structure of any software.
+ 
+Association:
+Association is the OOPS concept to define the relationship between objects. Association defines the multiplicity between objects. For example Teacher and Student objects. There is one to many relationship between a teacher and students. Similarly a student can have one to many relationship with teacher objects. However both student and teacher objects are independent of each other.
+
+Aggregation:
+Aggregation is a special type of association. In aggregation, objects have their own life cycle but there is an ownership. Whenever we have "HAS-A" relationship between objects and ownership then it's a case of aggregation.
+
+Composition:
+Composition is a special case of aggregation. Composition is a more restrictive form of aggregation. When the contained object in "HAS-A" relationship can't exist on it's own, then it's a case of composition. For example, House has-a Room. Here room can't exist without house.

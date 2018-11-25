@@ -1,0 +1,42 @@
+Class:
+
+A class is a user defined blueprint or prototype from which objects are created.  It represents the set of properties or methods 
+that are common to all objects of one type. In general, class declarations can include these components, in order:
+
+Modifiers : A class can be public or has default access (Refer this for details).
+Class name: The name should begin with a initial letter (capitalized by convention).
+Superclass(if any): The name of the class's parent (superclass), if any, preceded by the keyword extends.
+A class can only extend (subclass) one parent.
+Interfaces(if any): A comma-separated list of interfaces implemented by the class, if any, preceded by the keyword implements.
+A class can implement more than one interface.
+Body: The class body surrounded by braces, { }.
+
+A class can contain any of the following variable types.
+
+Local variables - Variables defined inside methods, constructors or blocks are called local variables. 
+The variable will be declared and initialized within the method and the variable will be destroyed when the method has completed.
+Instance variables - Instance variables are variables within a class but outside any method. These variables are initialized when the class is instantiated. Instance variables can be accessed from inside any method, constructor or blocks of that particular class.
+Class variables - Class variables are variables declared within a class, outside any method, with the static keyword.
+
+Constructors are used for initializing new objects. Fields are variables that provides the state of the class and its objects, 
+and methods are used to implement the behavior of the class and its objects.
+
+There are various types of classes that are used in real time applications such as nested classes, anonymous classes, lambda expressions.
+
+Object:
+
+It is a basic unit of Object Oriented Programming and represents the real life entities.  A typical Java program creates many objects, which as you know, interact by invoking methods. An object consists of :
+
+State : It is represented by attributes of an object. It also reflects the properties of an object.
+Behavior : It is represented by methods of an object. It also reflects the response of an object with other objects.
+Identity : It gives a unique name to an object and enables one object to interact with other objects.
+
+Creating an Object
+As mentioned previously, a class provides the blueprints for objects. So basically, an object is created from a class.
+In Java, the new keyword is used to create new objects.
+
+There are three steps when creating an object from a class:
+Declaration - A variable declaration with a variable name with an object type.
+Instantiation - The 'new' keyword is used to create the object.
+Initialization - The 'new' keyword is followed by a call to a constructor. This call initializes the new object.
+

@@ -1,0 +1,32 @@
+1. In Java arrays are
+objects
+object references
+primitive data type
+None of the above
+1
+2. Which one of the following is a valid statement?
+char[] c = new char();
+char[] c = new char[5];
+char[] c = new char(4);
+char[] c = new char[];
+2
+3. When you pass an array to a method, the method receives 
+A copy of the array.
+A copy of the first element.
+The reference of the array.
+The length of the array.
+3
+4. Which will legally declare, construct, and initialize an array?
+int [] myList = {};
+int [] myList = (5, 8, 2);
+int myList [] [] = {4,9,7,0};
+int myList [] = {4, 3, 7};
+4
+5. Which of these is necessary to specify at time of array initialization?
+Row
+Column
+Both Row and Column
+None of the mentioned
+1
+
+

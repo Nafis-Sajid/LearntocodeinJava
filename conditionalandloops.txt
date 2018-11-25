@@ -1,0 +1,84 @@
+Conditional statements are used to perform different actions based on different conditions. 
+The if statement is one of the most frequently used conditional statements.
+If the if statement's condition expression evaluates to true, the block of code inside the if statement is executed. If the expression is found to be false, the first set of code after the end of the if statement (after the closing curly brace) is executed.
+
+Syntax:
+if (condition) {
+   //Executes when the condition is true
+}
+
+Any of the following comparison operators may be used to form the condition:
+< less than
+> greater than
+!= not equal to
+== equal to
+<= less than or equal to
+>= greater than or equal to
+
+For example:
+int x = 7;
+if(x < 42) {
+   System.out.println("Hi");
+}
+
+Switch case statement is used when we have number of options (or choices) and we may need to perform 
+a different task for each choice.The syntax of Switch case statement looks like this
+
+switch (variable or an integer expression)
+{
+     case constant:
+     //Java code
+     ;
+     case constant:
+     //Java code
+     ;
+     default:
+     //Java code
+     ;
+}
+
+For loop in Java with example:
+Loops are used to execute a set of statements repeatedly until a particular condition is satisfied. 
+In Java we have three types of basic loops: for, while and do-while. In this tutorial we will learn how to use "for loop" in Java.
+
+Syntax of for loop:
+for(initialization; condition ; increment/decrement)
+{
+   statement(s);
+}
+
+While loop in Java with examples:
+In the last tutorial, we discussed for loop. In this tutorial we will discuss while loop. As discussed in previous tutorial, 
+loops are used to execute a set of statements repeatedly until a particular condition is satisfied.
+
+Syntax of while loop:
+while(condition)
+{
+   statement(s);
+}
+
+do-while loop in Java with example:
+In the last tutorial, we discussed while loop. In this tutorial we will discuss do-while loop in java.
+do-while loop is similar to while loop, however there is a difference between them: 
+In while loop, condition is evaluated before the execution of loop's body but in do-while loop condition 
+is evaluated after the execution of loop's body.
+
+Syntax of do-while loop:
+do
+{
+   statement(s);
+} while(condition);
+
+Continue statement is mostly used inside loops. Whenever it is encountered inside a loop, control directly jumps to the beginning of the loop for next iteration, skipping the execution of statements inside loop's body for the current iteration. This is particularly useful when you want to continue the loop but do not want the rest of the statements(after continue statement) in loop body to execute for that particular iteration.
+
+Syntax:
+"continue" word followed by semi colon.
+continue;
+
+The break statement is usually used in following two scenarios:
+Use break statement to come out of the loop instantly. Whenever a break statement is encountered inside a loop, the control directly comes out of loop and the loop gets terminated for rest of the iterations. It is used along with if statement, whenever used inside loop so that the loop gets terminated for a particular condition.
+The important point to note here is that when a break statement is used inside a nested loop,then only the inner loop gets terminated.
+
+Syntax of break statement:
+"break" word followed by semi colon
+break;

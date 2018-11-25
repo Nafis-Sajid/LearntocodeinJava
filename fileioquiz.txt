@@ -1,0 +1,30 @@
+1. Which of these class contains the methods used to write in a file?
+FileStream
+FileInputStream
+BufferedOutputStream
+FileBufferStream
+2
+2. Which of these exception is thrown in cases when the file specified for writing it not found?
+IOException
+FileException
+FileNotFoundException
+FileInputException
+3
+3. Which of these methods are used to read in from file?
+get()
+read()
+scan()
+readFileInput()
+2
+4. Which of these values is returned by read() method is end of file (EOF) is encountered?
+0
+1
+-1
+Null
+3
+5. Which of these methods is used to write() into a file?
+put()
+putFile()
+write()
+writeFile()
+3

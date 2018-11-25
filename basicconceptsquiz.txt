@@ -1,0 +1,30 @@
+1. Which of the following is a legal identifier in java ?
+variable
+#myvar
++@$var
+$_myvar
+2
+2. Which of these is NOT a valid keyword or reserved word in Java ?
+default
+null
+String
+volatile
+3
+3. Which is the legal range of values for a short ?
+-128 to 127
+-256 to 255
+-32768 to 32767
+0 to 65535
+1
+4. Which declaration of the main() method is valid ?
+public void main( String args [] )
+public void static main( String args [] )
+final public static void main(String[] arr)
+public static void main( String[] arr)
+4
+5. Which one of the following is invalid declaration of a char ?
+char c1 = 064770;
+char c2 = 'face';
+char c3 = 0xbeef;
+char c4 = '\uface';
+2

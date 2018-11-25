@@ -1,0 +1,60 @@
+Java is considered as one of simple language because it does not have complex features
+like Operator overloading, Multiple inheritance, pointers and Explicit memory allocation.
+Java code that is written on one machine can run on another machine. 
+The platform independent byte code can be carried to any platform for
+execution that makes java code portable.
+
+Variables in Java:
+A variable is a name which is associated with a value that can be changed.
+For example when I write int i=10; here variable name is i which is associated
+with value 10, int is a data type that represents that this variable can hold integer values.
+We will cover the data types in the next tutorial. In this tutorial, we will discuss about variables.
+
+To declare a variable follow this syntax:
+data_type variable_name = value;
+int num;
+char ch = 'A';
+int number = 100;
+
+we can do it like this:
+char ch;
+int number;
+...
+ch = 'A';
+number  = 100;
+
+Primitive data types
+byte, short, int and long data types are used for storing whole numbers.
+float and double are used for fractional numbers.
+char is used for storing characters(letters).
+boolean data type is used for variables that holds either true or false.
+
+byte: This can hold whole number between -128 and 127.
+Default size of this data type: 1 byte.
+
+short: This is greater than byte in terms of size and less than integer. Its range is -32,768 to 32767.
+Default size of this data type: 2 byte
+
+int: Used when short is not large enough to hold the number, it has a wider range: -2,147,483,648 to 2,147,483,647
+Default size: 4 byte
+
+long: Used when int is not large enough to hold the value, it has wider range than int data type,
+ranging from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807. size: 8 bytes
+
+float: Sufficient for holding 6 to 7 decimal digits size: 4 bytes
+double: Sufficient for holding 15 decimal digits size: 8 bytes
+boolean: holds either true of false.
+char: holds characters. size: 2 bytes
+
+Closer look to the First Java Program
+
+public static void main(String[] args)  {
+System.out.println("This is my first program in java");
+}
+
+lets break it down to understand it:
+public: This makes the main method public that means that we can call the method from outside the class.
+static: We do not need to create object for static methods to run. They can run itself.
+void: It does not return anything.
+main: It is the method name. This is the entry point method from which the JVM can run your program.
+(String[] args): Used for command line arguments that are passed as strings.

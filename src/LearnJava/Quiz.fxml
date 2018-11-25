@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="quizplane" prefHeight="700.0" prefWidth="800.0" styleClass="quiz" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LearnJava.QuizController">
+   <children>
+      <Button layoutX="14.0" layoutY="624.0" mnemonicParsing="false" onAction="#BackClicked" styleClass="glass-grey" stylesheets="@../CSS/style.css" text="&lt;&lt; Back to previous topic" AnchorPane.bottomAnchor="46.0" AnchorPane.leftAnchor="14.0">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="lessons" layoutX="703.0" layoutY="624.0" mnemonicParsing="false" onAction="#LessonsClicked" styleClass="glass-grey" stylesheets="@../CSS/style.css" text="Lessons &gt;&gt;" AnchorPane.bottomAnchor="46.0" AnchorPane.rightAnchor="14.0">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <VBox layoutX="10.0" layoutY="10.0" AnchorPane.bottomAnchor="230.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <GridPane VBox.vgrow="ALWAYS">
+               <children>
+                  <AnchorPane prefHeight="31.0" prefWidth="421.0">
+                     <children>
+                        <Label fx:id="question1" prefHeight="31.0" prefWidth="594.0" text="Label" textFill="WHITE" translateX="10.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <RadioButton fx:id="ques1op1" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" translateX="10.0" GridPane.rowIndex="1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="ques1" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="ques1op3" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" toggleGroup="$ques1" translateX="10.0" GridPane.rowIndex="2" />
+                  <RadioButton fx:id="ques1op2" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" toggleGroup="$ques1" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <RadioButton fx:id="ques1op4" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" toggleGroup="$ques1" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="600.0" minWidth="10.0" prefWidth="334.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="0.0" prefWidth="266.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane layoutY="101.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <AnchorPane prefHeight="31.0" prefWidth="421.0">
+                     <children>
+                        <Label fx:id="question2" prefHeight="31.0" prefWidth="594.0" text="Label" textFill="WHITE" translateX="10.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <RadioButton fx:id="ques2op1" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" translateX="10.0" GridPane.rowIndex="1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="ques2" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="ques2op3" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" toggleGroup="$ques2" translateX="10.0" GridPane.rowIndex="2" />
+                  <RadioButton fx:id="ques2op2" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" toggleGroup="$ques2" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <RadioButton fx:id="ques2op4" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" toggleGroup="$ques2" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="600.0" minWidth="10.0" prefWidth="334.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="0.0" prefWidth="266.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane layoutY="192.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <AnchorPane prefHeight="31.0" prefWidth="421.0">
+                     <children>
+                        <Label fx:id="question3" prefHeight="31.0" prefWidth="594.0" text="Label" textFill="WHITE" translateX="10.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <RadioButton fx:id="ques3op1" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" translateX="10.0" GridPane.rowIndex="1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="ques3" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="ques3op3" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" toggleGroup="$ques3" translateX="10.0" GridPane.rowIndex="2" />
+                  <RadioButton fx:id="ques3op2" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" toggleGroup="$ques3" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <RadioButton fx:id="ques3op4" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" toggleGroup="$ques3" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="600.0" minWidth="10.0" prefWidth="334.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="0.0" prefWidth="266.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="31.0" minHeight="10.0" prefHeight="31.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane layoutY="283.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <AnchorPane prefHeight="31.0" prefWidth="421.0">
+                     <children>
+                        <Label fx:id="question4" prefHeight="31.0" prefWidth="594.0" text="Label" textFill="WHITE" translateX="10.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <RadioButton fx:id="ques4op1" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" translateX="10.0" GridPane.rowIndex="1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="ques4" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="ques4op3" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" toggleGroup="$ques4" translateX="10.0" GridPane.rowIndex="2" />
+                  <RadioButton fx:id="ques4op2" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" toggleGroup="$ques4" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <RadioButton fx:id="ques4op4" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" toggleGroup="$ques4" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="600.0" minWidth="10.0" prefWidth="334.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="0.0" prefWidth="266.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane layoutY="383.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <AnchorPane prefHeight="31.0" prefWidth="421.0">
+                     <children>
+                        <Label fx:id="question5" prefHeight="31.0" prefWidth="594.0" text="Label" textFill="WHITE" translateX="10.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <RadioButton fx:id="ques5op1" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" translateX="10.0" GridPane.rowIndex="1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="ques5" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="ques5op3" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" toggleGroup="$ques5" translateX="10.0" GridPane.rowIndex="2" />
+                  <RadioButton fx:id="ques5op2" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" toggleGroup="$ques5" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <RadioButton fx:id="ques5op4" mnemonicParsing="false" onAction="#AnswerClicked" text="RadioButton" textFill="WHITE" toggleGroup="$ques5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="600.0" minWidth="10.0" prefWidth="334.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="0.0" prefWidth="266.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutY="521.0" spacing="20.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER">
+               <children>
+                  <Button fx:id="submit" mnemonicParsing="false" onAction="#SubmitClicked" styleClass="green" stylesheets="@../CSS/style.css" text="Submit">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" spacing="20.0">
+               <children>
+                  <Label fx:id="rightans" prefHeight="31.0" prefWidth="79.0" text="Right " textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets right="20.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="right" prefHeight="30.0" prefWidth="79.0" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="wrongans" prefHeight="31.0" prefWidth="79.0" text="Wrong" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="wrong" prefHeight="30.0" prefWidth="79.0" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="scorepercent" prefHeight="31.0" prefWidth="69.0" text="Score" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="score" prefHeight="30.0" prefWidth="79.0" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

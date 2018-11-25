@@ -1,0 +1,19 @@
+Java API:
+The Java API is a collection of classes and interfaces that have been written for you to use.
+Once you locate the package you want to use, you need to import it into your code.
+The package can be imported using the import keyword.
+For example:
+import java.awt.*;
+The awt package contains all of the classes for creating user interfaces and for painting graphics and images.
+
+API Packages:
+Java APl(Application Program Interface) provides a large numbers of classes grouped into different packages according to functionality. Most of the time we use the packages available with the the Java API. Following figure shows the system packages that are frequently used in the programs.
+
+Java System Packages and Their Classes:
+
+java.lang :	Language support classes. They include classes for primitive types, string, math functions, thread and exceptions.
+java.util :	Language utility classes such as vectors, hash tables, random numbers, data, etc.
+java.io :	Input/output support classes. They provide facilities for the input and output of data.
+java.applet : 	Classes for creating and implementing applets.
+java.net :	Classes for networking. They include classes for communicating with local computers as well as with internet servers.
+java.awt :	Set of classes for implementing graphical user interface. They include classes for windows, buttons, lists, menus 

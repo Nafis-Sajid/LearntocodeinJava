@@ -1,0 +1,30 @@
+1. When does Exceptions in Java arises in code sequence?
+Run Time
+Compilation Time
+Can Occur Any Time
+None of the mentioned
+1
+2. Which of these keywords is not a part of exception handling?
+try
+finally
+thrown
+catch
+3
+3. Which of these keywords must be used to monitor for exceptions?
+try
+finally
+throw
+catch
+1
+4. Which of these keywords are used for the block to be examined for exceptions?
+try
+catch
+throw
+check
+1
+5. What is the use of try & catch?
+It allows us to manually handle the exception
+It allows to fix errors
+It prevents automatic terminating of the program when exception
+All of the mentioned
+4
